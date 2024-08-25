@@ -28,6 +28,7 @@ NODES=(
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
+    "https://github.com/ArtVentureX/comfyui-animatediff"
 
     # IVAN flux
     "https://github.com/XLabs-AI/x-flux-comfyui"
@@ -59,7 +60,8 @@ XLABS_CONTROLNET_MODELS=(
 )
 
 XLABS_LORA_MODELS=(
-    "https://huggingface.co/XLabs-AI/flux-RealismLora/resolve/main/lora.safetensors"
+    # commented coz LoRA has no name
+    # "https://huggingface.co/XLabs-AI/flux-RealismLora/resolve/main/lora.safetensors"
 )
 
 UNET_MODELS=(
