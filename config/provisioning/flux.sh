@@ -19,10 +19,32 @@ PIP_PACKAGES=(
 )
 
 NODES=(
+    # IVAN custom
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/kijai/ComfyUI-KJNodes"
+    # "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
+    "https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/shadowcz007/comfyui-mixlab-nodes"
     
+    # IVAN flux
+    "https://github.com/XLabs-AI/x-flux-comfyui"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
+
+    # IVAN upscale_SUPIR_img2img_w_multi_image_option.json
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/kijai/ComfyUI-SUPIR"
+
+    # IVAN florence
+    "https://github.com/kijai/ComfyUI-Florence2"
 )
 
 CHECKPOINT_MODELS=(
+    # IVAN
+    "https://huggingface.co/erohinem/SDXL/resolve/bb3b7fa6598742f81f3eae359fe39165ba29e6dd/juggernautXL_v9Rdphoto2Lightning.safetensors"
+    "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 )
 
 CLIP_MODELS=(
