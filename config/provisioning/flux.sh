@@ -53,16 +53,16 @@ CLIP_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
 )
 
-XLABS_CONTROLNET_MODELS=(
-    "https://huggingface.co/XLabs-AI/flux-controlnet-canny-v3/resolve/main/flux-canny-controlnet-v3.safetensors"
-    "https://huggingface.co/XLabs-AI/flux-controlnet-hed-v3/resolve/main/flux-hed-controlnet-v3.safetensors"
-    "https://huggingface.co/XLabs-AI/flux-controlnet-depth-v3/resolve/main/flux-depth-controlnet-v3.safetensors"
-)
+# XLABS_CONTROLNET_MODELS=(
+#     "https://huggingface.co/XLabs-AI/flux-controlnet-canny-v3/resolve/main/flux-canny-controlnet-v3.safetensors"
+#     "https://huggingface.co/XLabs-AI/flux-controlnet-hed-v3/resolve/main/flux-hed-controlnet-v3.safetensors"
+#     "https://huggingface.co/XLabs-AI/flux-controlnet-depth-v3/resolve/main/flux-depth-controlnet-v3.safetensors"
+# )
 
-XLABS_LORA_MODELS=(
-    # commented coz LoRA has no name
-    # "https://huggingface.co/XLabs-AI/flux-RealismLora/resolve/main/lora.safetensors"
-)
+# XLABS_LORA_MODELS=(
+#     # commented coz LoRA has no name
+#     # "https://huggingface.co/XLabs-AI/flux-RealismLora/resolve/main/lora.safetensors"
+# )
 
 UNET_MODELS=(
 )
@@ -127,12 +127,12 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/xlabs/controlnets" \
-        "${XLABS_CONTROLNET_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/xlabs/loras" \
-        "${XLABS_LORA_MODELS[@]}"
+    # provisioning_get_models \
+    #     "${WORKSPACE}/storage/stable_diffusion/models/xlabs/controlnets" \
+    #     "${XLABS_CONTROLNET_MODELS[@]}"
+    # provisioning_get_models \
+    #     "${WORKSPACE}/storage/stable_diffusion/models/xlabs/loras" \
+    #     "${XLABS_LORA_MODELS[@]}"
     provisioning_print_end
 }
 

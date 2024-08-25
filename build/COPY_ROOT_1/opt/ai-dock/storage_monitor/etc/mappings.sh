@@ -23,6 +23,6 @@ storage_map["stable_diffusion/models/vae"]="/opt/ComfyUI/models/vae"
 storage_map["stable_diffusion/models/vae_approx"]="/opt/ComfyUI/models/upscale_models"
 
 # Add more mappings for other repository directories as needed
-# IVAN
-storage_map["stable_diffusion/models/xlabs/controlnets"]="/opt/ComfyUI/models/xlabs/controlnets"
-storage_map["stable_diffusion/models/xlabs/loras"]="/opt/ComfyUI/models/xlabs/loras"
+# # IVAN
+# storage_map["stable_diffusion/models/xlabs/controlnets"]="/opt/ComfyUI/models/xlabs/controlnets"
+# storage_map["stable_diffusion/models/xlabs/loras"]="/opt/ComfyUI/models/xlabs/loras"
